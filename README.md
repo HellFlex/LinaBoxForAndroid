@@ -1,101 +1,76 @@
-# LinaBox for Android
+# 🌌 LinaVBox for Android
 
-[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
-[![Releases](https://img.shields.io/github/v/release/MatsuriDayo/NekoBoxForAndroid)](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
-[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-orange.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0--Lina-gold?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/License-GPLv3-black?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/Author-HellFlex-white?style=for-the-badge&logo=github" alt="Author">
+</p>
 
-sing-box / universal proxy toolchain for Android.
+---
 
-一款使用 sing-box 的 Android 通用代理软件.
+### 🇷🇺 Описание (RU)
+**LinaBox** — это кастомная сборка универсального прокси-инструмента для Android на базе ядра `sing-box`. Это независимый форк, созданный для тех, кто ценит эстетику, приватность и высокую производительность.
 
-## 下载 / Downloads
+**Ключевые особенности:**
+* 🎨 **Ребрендинг:** Уникальная цветовая схема (Black & Gold).
+* 🚀 **Ядро:** Актуальная версия `sing-box`.
+* 🛡️ **Анонимность:** Полная очистка от сторонних трекеров и лишних модулей.
+* 🛠️ **Гибкость:** Поддержка всех современных протоколов.
 
-[![GitHub All Releases](https://img.shields.io/github/downloads/Matsuridayo/NekoBoxForAndroid/total?label=downloads-total&logo=github&style=flat-square)](https://github.com/Matsuridayo/NekoBoxForAndroid/releases)
+**Разработчик:** [HellFlex aka DivineTaraxacum](https://github.com/HellFlex)
 
-[GitHub Releases 下载](https://github.com/Matsuridayo/NekoBoxForAndroid/releases)
+---
 
-**Google Play 版本自 2024 年 5 月起已被第三方控制，为非开源版本，请不要下载。**
+### 🇺🇸 Description (EN)
+**LinaBox** is a custom build of a universal proxy toolchain for Android based on the `sing-box` core. This is an independent fork created for those who value aesthetics, privacy, and high performance.
 
-**The Google Play version has been controlled by a third party since May 2024 and is a non-open
-source version. Please do not download it.**
+**Key Features:**
+* 🎨 **Rebranded:** Unique visual identity (Black & Gold theme).
+* 🚀 **Core:** Powered by the latest `sing-box` engine.
+* 🛡️ **Privacy:** Stripped of third-party trackers and unnecessary modules.
+* 🛠️ **Versatile:** Full support for modern proxy protocols.
 
-## 更新日志 & Telegram 发布频道 / Changelog & Telegram Channel
+**Lead Developer:** [HellFlex aka DivineTaraxacum](https://github.com/HellFlex)
 
-https://t.me/Matsuridayo
+---
 
-## 项目主页 & 文档 / Homepage & Documents
+## 📥 Загрузка / Downloads
 
-https://matsuridayo.github.io
+> [!IMPORTANT]  
+> Скачивайте APK только из официального раздела **Releases** данного репозитория.  
+> Download the APK only from the official **Releases** section of this repository.
 
-## 支持的代理协议 / Supported Proxy Protocols
+* **[GitHub Releases](https://github.com/HellFlex/LinaBoxForAndroid/releases)**
 
-* SOCKS (4/4a/5)
-* HTTP(S)
-* SSH
-* Shadowsocks
-* VMess
-* Trojan
-* VLESS
-* AnyTLS
-* ShadowTLS
-* TUIC
-* Hysteria 1/2
-* WireGuard
-* Trojan-Go (trojan-go-plugin)
-* NaïveProxy (naive-plugin)
-* Mieru (mieru-plugin)
+---
 
-请到[这里](https://matsuridayo.github.io/nb4a-plugin/)下载插件以获得完整的代理支持.
+## ⚙️ Поддерживаемые протоколы / Supported Protocols
 
-Please visit [here](https://matsuridayo.github.io/nb4a-plugin/) to download plugins for full proxy
-supports.
+| Category | Protocols |
+| :--- | :--- |
+| **Standard** | SOCKS (4/4a/5), HTTP(S), SSH |
+| **Advanced** | Shadowsocks, VMess, Trojan, VLESS, AnyTLS |
+| **Transport** | ShadowTLS, TUIC, Hysteria 1/2, WireGuard |
+| **Plugins** | Trojan-Go, NaïveProxy, Mieru |
 
-## 支持的订阅格式 / Supported Subscription Format
+---
 
-* 一些广泛使用的格式 (如 Shadowsocks, ClashMeta 和 v2rayN)
-* sing-box 出站
+## 📋 Подписки / Subscriptions
 
-仅支持解析出站，即节点。分流规则等信息会被忽略。
+* **Форматы:** Shadowsocks, ClashMeta, v2rayN.
+* **Sing-box outbound:** Импорт исходящих узлов (правила маршрутизации игнорируются для чистоты настройки).
 
-* Some widely used formats (like Shadowsocks, ClashMeta and v2rayN)
-* sing-box outbound
+---
 
-Only resolving outbound, i.e. nodes, is supported. Information such as diversion rules are ignored.
+## 🤝 Credits & Acknowledgments
 
-## 捐助 / Donate
+This project is a fork of the amazing work by the original developers.
+* **Core:** [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
+* **Android GUI:** [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) & [SagerNet](https://github.com/SagerNet/SagerNet)
+* **Web Dashboard:** [Yacd-meta](https://github.com/MetaCubeX/Yacd-meta)
 
-<details>
+---
 
-如果这个项目对您有帮助, 可以通过捐赠的方式帮助我们维持这个项目.
-
-捐赠满等额 50 USD 可以在「[捐赠榜](https://mtrdnt.pages.dev/donation_list)」显示头像, 如果您未被添加到这里,
-欢迎联系我们补充.
-
-Donations of 50 USD or more can display your avatar on
-the [Donation List](https://mtrdnt.pages.dev/donation_list). If you are not added here, please
-contact us to add it.
-
-USDT TRC20
-
-`TRhnA7SXE5Sap5gSG3ijxRmdYFiD4KRhPs`
-
-XMR
-
-`49bwESYQjoRL3xmvTcjZKHEKaiGywjLYVQJMUv79bXonGiyDCs8AzE3KiGW2ytTybBCpWJUvov8SjZZEGg66a4e59GXa6k5`
-
-</details>
-
-## Credits
-
-Core:
-
-- [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
-
-Android GUI:
-
-- [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android)
-- [SagerNet/SagerNet](https://github.com/SagerNet/SagerNet)
-
-Web Dashboard:
-
-- [Yacd-meta](https://github.com/MetaCubeX/Yacd-meta)
+<p align="center">
+  <i>Created with 🖤 by HellFlex aka DivineTaraxacum</i>
+</p>
