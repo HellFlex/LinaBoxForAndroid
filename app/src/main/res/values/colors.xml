@@ -294,5 +294,6 @@
     <color name="lina_accent">#E58E58</color>
     <color name="lina_background">#121212</color>
     <color name="lina_text">#F5F5F5</color>
+    <color name="lina_ripple">#33E58E58</color>
 
 </resources>

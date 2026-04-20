@@ -3,35 +3,40 @@
     <style name="Theme.SagerNet" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="actionBarStyle">@style/Widget.MaterialComponents.ActionBar.Solid</item>
         <item name="actionModeCloseDrawable">@drawable/ic_navigation_close</item>
-        <item name="colorButtonNormal">#E58E58</item>
-        <item name="android:navigationBarColor">#121212</item>
-        <item name="colorPrimary">#E58E58</item>
-        <item name="colorPrimaryDark">#E58E58</item>
-        <item name="colorAccent">#E58E58</item>
+        <item name="colorButtonNormal">@color/lina_accent</item>
+        <item name="android:navigationBarColor">@color/lina_background</item>
+        <item name="colorPrimary">@color/lina_accent</item>
+        <item name="colorPrimaryDark">@color/lina_accent</item>
+        <item name="colorAccent">@color/lina_accent</item>
 
-        <item name="colorMaterial100">#121212</item>
-        <item name="colorMaterial300">#121212</item>
+        <item name="colorMaterial100">@color/lina_background</item>
+        <item name="colorMaterial300">@color/lina_background</item>
 
-        <item name="accentOrTextSecondary">#E58E58</item>
-        <item name="accentOrTextPrimary">#E58E58</item>
-        <item name="primaryOrTextSecondary">#FFFFFF</item>
-        <item name="primaryOrTextPrimary">#FFFFFF</item>
+        <item name="accentOrTextSecondary">@color/lina_accent</item>
+        <item name="accentOrTextPrimary">@color/lina_accent</item>
+        <item name="primaryOrTextSecondary">@color/lina_text</item>
+        <item name="primaryOrTextPrimary">@color/lina_text</item>
 
-        <item name="fabColorBackground">#E58E58</item>
-        <item name="selectedColorPrimary">#E58E58</item>
+        <item name="fabColorBackground">@color/lina_accent</item>
+        <item name="selectedColorPrimary">@color/lina_accent</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Light</item>
-        <item name="tabTextColor">#99000000</item>
-        <item name="tabSelectedTextColor">#000000</item>
-        <item name="tabIndicatorColor">#000000</item>
-        <item name="tabRippleColor">#000000</item>
-        <item name="whiteOrTextPrimary">#FFFFFF</item>
+        <item name="tabTextColor">@color/lina_background</item>
+        <item name="tabSelectedTextColor">@color/lina_background</item>
+        <item name="tabIndicatorColor">@color/lina_background</item>
+        <item name="tabRippleColor">@color/lina_background</item>
+        <item name="whiteOrTextPrimary">@color/lina_text</item>
         
-        <item name="android:windowBackground">#121212</item>
-        <item name="android:textColorPrimary">#FFFFFF</item>
-        <item name="android:textColorSecondary">#E58E58</item>
-        <item name="colorOnPrimary">#121212</item>
-        <item name="colorSurface">#121212</item>
-        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:windowBackground">@color/lina_background</item>
+        <item name="android:textColorPrimary">@color/lina_text</item>
+        <item name="android:textColorSecondary">@color/lina_accent</item>
+        <item name="colorOnPrimary">@color/lina_background</item>
+        <item name="colorSurface">@color/lina_background</item>
+        <item name="colorOnSurface">@color/lina_text</item>
+        
+        <item name="itemIconTint">@color/lina_accent</item>
+        <item name="itemTextColor">@color/lina_text</item>
+        <item name="itemShapeFillColor">@color/lina_ripple</item>
+        <item name="itemRippleColor">@color/lina_ripple</item>
 
         <item name="windowActionModeOverlay">true</item>
 
@@ -58,35 +63,40 @@
     <style name="Theme.SagerNet.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
         <item name="actionBarStyle">@style/Widget.MaterialComponents.ActionBar.Solid</item>
         <item name="actionModeCloseDrawable">@drawable/ic_navigation_close</item>
-        <item name="colorButtonNormal">#E58E58</item>
-        <item name="android:navigationBarColor">#121212</item>
-        <item name="colorPrimary">#E58E58</item>
-        <item name="colorPrimaryDark">#E58E58</item>
-        <item name="colorAccent">#E58E58</item>
+        <item name="colorButtonNormal">@color/lina_accent</item>
+        <item name="android:navigationBarColor">@color/lina_background</item>
+        <item name="colorPrimary">@color/lina_accent</item>
+        <item name="colorPrimaryDark">@color/lina_accent</item>
+        <item name="colorAccent">@color/lina_accent</item>
 
-        <item name="colorMaterial100">#121212</item>
-        <item name="colorMaterial300">#121212</item>
+        <item name="colorMaterial100">@color/lina_background</item>
+        <item name="colorMaterial300">@color/lina_background</item>
 
-        <item name="accentOrTextSecondary">#E58E58</item>
-        <item name="accentOrTextPrimary">#E58E58</item>
-        <item name="primaryOrTextSecondary">#FFFFFF</item>
-        <item name="primaryOrTextPrimary">#FFFFFF</item>
+        <item name="accentOrTextSecondary">@color/lina_accent</item>
+        <item name="accentOrTextPrimary">@color/lina_accent</item>
+        <item name="primaryOrTextSecondary">@color/lina_text</item>
+        <item name="primaryOrTextPrimary">@color/lina_text</item>
 
-        <item name="fabColorBackground">#E58E58</item>
-        <item name="selectedColorPrimary">#E58E58</item>
+        <item name="fabColorBackground">@color/lina_accent</item>
+        <item name="selectedColorPrimary">@color/lina_accent</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Light</item>
-        <item name="tabTextColor">#99000000</item>
-        <item name="tabSelectedTextColor">#000000</item>
-        <item name="tabIndicatorColor">#000000</item>
-        <item name="tabRippleColor">#000000</item>
-        <item name="whiteOrTextPrimary">#FFFFFF</item>
+        <item name="tabTextColor">@color/lina_background</item>
+        <item name="tabSelectedTextColor">@color/lina_background</item>
+        <item name="tabIndicatorColor">@color/lina_background</item>
+        <item name="tabRippleColor">@color/lina_background</item>
+        <item name="whiteOrTextPrimary">@color/lina_text</item>
 
-        <item name="android:windowBackground">#121212</item>
-        <item name="android:textColorPrimary">#FFFFFF</item>
-        <item name="android:textColorSecondary">#E58E58</item>
-        <item name="colorOnPrimary">#121212</item>
-        <item name="colorSurface">#121212</item>
-        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:windowBackground">@color/lina_background</item>
+        <item name="android:textColorPrimary">@color/lina_text</item>
+        <item name="android:textColorSecondary">@color/lina_accent</item>
+        <item name="colorOnPrimary">@color/lina_background</item>
+        <item name="colorSurface">@color/lina_background</item>
+        <item name="colorOnSurface">@color/lina_text</item>
+        
+        <item name="itemIconTint">@color/lina_accent</item>
+        <item name="itemTextColor">@color/lina_text</item>
+        <item name="itemShapeFillColor">@color/lina_ripple</item>
+        <item name="itemRippleColor">@color/lina_ripple</item>
 
         <item name="windowActionModeOverlay">true</item>
 
