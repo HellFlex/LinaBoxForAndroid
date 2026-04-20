@@ -290,4 +290,9 @@
 
     <color name="preference_simple_menu_background">#FAFAFA</color>
 
+    <color name="lina_primary">#121212</color>
+    <color name="lina_accent">#E58E58</color>
+    <color name="lina_background">#121212</color>
+    <color name="lina_text">#F5F5F5</color>
+
 </resources>
