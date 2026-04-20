@@ -108,6 +108,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                                 .subText(Libcore.versionBox())
                                 .setOnClickAction { }
                                 .build())
+/*
                         .addItem(
                             MaterialAboutActionItem.Builder()
                                 .icon(R.drawable.ic_baseline_card_giftcard_24)
@@ -119,6 +120,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                                     )
                                 }
                                 .build())
+*/
                         .apply {
                             PackageCache.awaitLoadSync()
                             for ((_, pkg) in PackageCache.installedPluginPackages) {
@@ -173,6 +175,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                             }
                         }
                         .build())
+/*
                 .addCard(
                     MaterialAboutCard.Builder()
                         .outline(false)
@@ -199,6 +202,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                                 }
                                 .build())
                         .build())
+*/
                 .build()
 
         }
